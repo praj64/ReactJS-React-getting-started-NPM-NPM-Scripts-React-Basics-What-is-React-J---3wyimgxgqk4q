@@ -4,12 +4,13 @@ import '../styles/App.css';
 const App = () => {
   return (
     <div id="main">
-      < />
-      < />
-      < />
-      < />
+      <Heading />
+      <InoutQuery />
+      <SubHeading />
+      <SubmitButton />
     </div>
   )
 }
 
+export default App;
 
